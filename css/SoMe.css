@@ -1,0 +1,86 @@
+/**
+ * projekt: SoMe - content creation
+ **/
+
+ /* Google fonts
+ Fredericka the great
+ font-family: 'Fredericka the Great', cursive;
+ Baskerville 
+ font-family: 'Libre Baskerville', serif;
+ */
+
+  /* Variabler*/
+  :root {
+	/* farver */
+	--white: #fcfcfc;
+	--offwhite: #FFFEF2;
+	--beige: #ece2d7;
+	--green:  #7faf8c;
+	--pink: #F4D1E4;
+	--black: #1d0b09;
+ 
+	--tekstur1: url('../images/tekstur1.png');
+ 
+	/* fonte */
+	--overskrift: 'Fredericka the Great', cursive; /* overskrifter */
+	--broedtekst: 'Libre Baskerville', serif; /* brødtekst */
+ 
+	/* whitespace */
+	--whitespace: .3rem;
+ 
+	/* teksturer ("skitse baggrund") */
+	--baggrund: url('../images/baggrund.png');
+  }
+
+  h1 {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 1.8rem;
+  }
+
+  h2 {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 1.5rem;
+  }
+
+  p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 0.8rem;
+  }
+ 
+  /* Smooth scroll */
+  html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	margin: 0;
+	border: none;
+	text-decoration: none;
+	background-color: var(--offwhite);
+	background-image: url("../images/tekstur2.png");
+	background-repeat: repeat;
+	background-size: 100%;
+  }
+
+  header {
+	  height: 100px;
+	  padding: 1%;
+	  margin-bottom: 3%;
+  }
+
+  #flex {
+	  display: flex;
+	  flex-direction: row;
+	  margin-left: 15%;
+	  margin-right: 15%;
+  }
+
+  .hojre {
+	padding: 0% 10%;
+  }
+
+  .venstre {
+	padding: 0% 10%;
+  }
+
+  footer {
+	height: 350px;
+  }

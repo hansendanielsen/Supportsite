@@ -1,0 +1,224 @@
+/**
+ * projekt: SoMe - content creation
+ **/
+
+ /* Google fonts
+ Fredericka the great
+ font-family: 'Fredericka the Great', cursive;
+
+ Baskerville 
+ font-family: 'Libre Baskerville', serif;
+
+ Montserrat
+ font-family: 'Montserrat', sans-serif;
+
+ Noto Serif Display
+ font-family: 'Noto Serif Display', serif;
+ */
+
+  /* Variabler*/
+  :root {
+	/* farver */
+	--white: #fcfcfc;
+	--offwhite: #FFFEF2;
+	--beige: #dbd7ce;
+	--darkpink: #F5A5C0;
+	--green:  #7faf8c;
+	--pink: #F4D1E4;
+	--black: #1d0b09;
+ 
+	--tekstur1: url('../images/tekstur1.png');
+ 
+	/* fonte */
+	--overskrift: 'Fredericka the Great', cursive; /* overskrifter */
+	--broedtekst: 'Libre Baskerville', serif; /* brødtekst */
+ 
+	/* whitespace */
+	--whitespace: .3rem;
+ 
+	/* teksturer ("skitse baggrund") */
+	--baggrund: url('../images/baggrund.png');
+  }
+
+  h1 {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 1.8rem;
+  }
+
+  h2 {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 1.3rem;
+  }
+
+  h3 {
+	font-family: 'Libre Baskerville', serif;
+	font-style: SemiBold;
+	font-size: 0.9rem;
+	line-height: 0.9rem;
+  }
+
+  h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-style: Medium 500;
+	font-size: 0.8rem;
+	line-height: 1.3rem;
+  }
+
+  p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 0.8rem;
+	line-height: 1.3rem;
+  }
+
+  
+ 
+  /* Smooth scroll */
+  html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	margin: 0;
+	border: none;
+	text-decoration: none;
+	background-color: var(--offwhite);
+	background-image: url("../images/tekstur2.png");
+	background-repeat: repeat;
+	background-size: 100%;
+  }
+
+  header {
+	  height: 100px;
+	  padding: 1%;
+  }
+
+  #insta {
+	  display: flex;
+	  flex-direction: row;
+	  margin-bottom: 5%;
+  }
+
+  .flex {
+	display: flex;
+	flex-direction: column;
+	width: 100px;
+ }
+
+ .box {
+	height: 100px;
+	width: 100px;
+	border-bottom: 1px solid #1d0b09;;
+ }
+
+ .menu {
+  	border-left: 1px solid #1d0b09;
+  	padding-left: 3%;
+  	margin-left: 50%;
+ 	height: 700px;
+ }
+
+ .menu a {
+	text-decoration: none;
+	color: var(--black);
+}
+
+.venstre {
+	padding-left: 1%;
+	width: 15%;
+}
+
+.hojre1 {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.billeder {
+	display: flex;
+	flex-direction: column;
+}
+
+.date {
+	padding-top: 8%;
+}
+
+.forst {
+	width: 25%;
+}
+
+.midt {
+	width: 25%;
+	padding-top: 11%;
+	height: 100%;
+
+}
+
+.hojre {
+	width: 25%;
+	padding-top: 11%;
+}
+
+
+  #stories {
+	display: flex;
+	flex-direction: row;
+	margin-left: 2%;
+	margin-bottom: 5%;
+}
+
+
+#tiktok {
+	display: flex;
+	flex-direction: row;
+	margin-left: 2%;
+	margin-bottom: 5%;
+	margin-top: 200px;
+}
+
+#linkedin {
+	display: flex;
+	flex-direction: row;
+	margin-left: 2%;
+	margin-bottom: 5%;
+}
+
+#UGC {
+	display: flex;
+	flex-direction: row;
+	margin-left: 2%;
+}
+
+.box2 {
+	height: 100px;
+	width: 100px;
+	border-bottom: 1px solid #1d0b09;;
+	margin-top: 50px;
+ }
+
+.menu2 {
+	border-left: 1px solid #1d0b09;
+	padding-left: 3%;
+	margin-left: 50%;
+    height: 700px;
+}
+
+.menu2 a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+  .midt2 {
+	padding: 5% 10%;
+	width: 50%;
+  }
+
+  .hojre2 {
+	margin-right: 15%;
+	padding-left: 5%;
+	margin-top: 10%;
+	width: 25%;
+  }
+
+
+  footer {
+	height: 350px;
+  }
